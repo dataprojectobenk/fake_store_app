@@ -131,6 +131,7 @@ class _LoginPageState extends State<LoginPage> {
                                       setState(() => _isLoading = false);
                                       // ignore: use_build_context_synchronously
                                       Navigator.pushReplacementNamed(
+                                        // ignore: use_build_context_synchronously
                                         context,
                                         '/product',
                                       );
